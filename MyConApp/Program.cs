@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyConApp
 {
@@ -10,6 +6,8 @@ namespace MyConApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Git Today @: "+DateTime.Now);
+            Console.ReadKey();
         }
     }
 }
